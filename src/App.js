@@ -11,6 +11,7 @@ import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import Services from './Components/Services/Services';
+import Booking from './Components/Booking/Booking';
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,8 @@ function App() {
             <Route index element={<Home />} />
           </Route>
           <Route path="/services" element={<Services />}>
+          </Route>
+          <Route path="/booking/:serviceId" element={<Booking />}>
           </Route>
           <Route path="/login" element={<Login />}>
           </Route>

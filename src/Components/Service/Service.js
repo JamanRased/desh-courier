@@ -1,10 +1,11 @@
 
 import React from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = ({service }) => {
-    const { name, image } = service;
+    const {id, name, image } = service;
 
     return (
         <Row>
@@ -14,7 +15,9 @@ const Service = ({service }) => {
                     <h3>{name}</h3>
                 </div>
                 <div>
-                    <Button>Book Now</Button>
+                    <Link to={`/booking/${id}`}>
+                        <Button className="btn border bg-black text-white">Book Now</Button>
+                     </Link>
                 </div>
             </Col>
         </Row>
