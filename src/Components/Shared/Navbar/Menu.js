@@ -17,8 +17,10 @@ const Menu = () => {
                         <Nav.Link href="#deets">Services</Nav.Link>
                         <Nav.Link href="#deets">Help</Nav.Link>
                         <Nav.Link href="#deets">Blog</Nav.Link>
+                        <Nav.Link href="#deets">Contact Us</Nav.Link>
                         <div className='pb-2 mb-1'>
-                            <Nav.Link href="#deets"><Button variant="primary">Become a Merchant</Button></Nav.Link>
+                            
+                            <Nav.Link href="/login"><Button variant="primary">Login</Button></Nav.Link>
                         </div>
                        
                         
