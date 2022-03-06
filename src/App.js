@@ -17,9 +17,11 @@ import Contact from './Components/Contact/Contact';
 import Help from './Components/Help/Help';
 import Blog from './Components/Blog/Blog';
 import Admin from './Components/Admin/Admin/Admin';
+import AuthProvider from './contexts/AuthProvider/AuthProvider';
+
 function App() {
   return (
-    <div className="App">
+    <AuthProvider>
        <BrowserRouter>
        <Menu></Menu>
         <Routes>
@@ -51,7 +53,7 @@ function App() {
         <Footer></Footer>
       </BrowserRouter>
       
-    </div>
+    </AuthProvider>
   );
 }
 
