@@ -1,0 +1,26 @@
+.contact{
+    background-color: rgb(246, 246, 246);
+    margin: 5px;
+}
+.contact-header{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.input-field {
+    padding: 12px;
+    margin: 5px;
+    border: 1px solid gray;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 30%;
+  }
+  .input-btn {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    width: 30%;
+    margin-top: 20px;
+  }
+  

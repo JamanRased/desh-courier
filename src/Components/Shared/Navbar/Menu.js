@@ -22,13 +22,15 @@ const Menu = () => {
                     <Nav.Link as={Link} to="/services">Services</Nav.Link>
                     <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
                     <Nav.Link as={Link} to="/help">Help</Nav.Link>
-                    <Nav.Link as={Link} to="/contactus">Contact Us</Nav.Link>
+                    <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
                                     
                     </div>
                     <Nav>
                     <Nav.Link as={Link} to="/adminDashboard">Admin</Nav.Link>
+                    <Nav.Link as={Link} to="/addnewservice">Add New Services</Nav.Link>
                     </Nav>
                     <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                    <Nav.Link as={Link} to="/adminDashboard">Admin</Nav.Link>
                 </Navbar.Collapse>
             </Container>
             </Navbar>
